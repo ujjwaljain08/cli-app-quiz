@@ -1,10 +1,10 @@
 const readLineSync = require("readline-sync");
 var score = 0;
 
-var userName = readLineSync.question("Enter Your Username : ")
-console.log("Welcome to quiz " + userName + " Lets See how well do you know about India ?")
+var Name = readLineSync.question("Enter Your Name : ")
+console.log("Welcome to quiz " + Name + " Lets See how well do you know about India ?")
 
-console.log("write answer to each question presented to you")
+console.log("Ind")
 
 var que1 = {
   que: "national bird of india ? ",
